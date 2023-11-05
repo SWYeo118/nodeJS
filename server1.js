@@ -4,7 +4,7 @@ const server = http.createServer((require, response) => {      // http 객체를
     response.write('<h1>hello Node!</h1>');      // write를 통해서 글자를 써내려갈 수 있다. (write와 end 모두 stream임)
     response.write('<p>hello Server!</p>');
     response.end('<p>hello sangwoo!</p>');
-}).listen(8080, () => {                         // node에서 서버를 process에 올려주어야 하니까 올려주고, listen에 대한 콜백함수를 작성한다.
+}).listen(8080, () => {                         // listen은 createServer의 method로 해당 port에서 서버가 대기하고 있겠다는 의미이다.
     console.log('8080번 서버 오픈');
 });
 
