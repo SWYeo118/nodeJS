@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="631b78c8-02d3-487d-bca1-0d26e47611c6" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.js" beforeDir="false" afterPath="$PROJECT_DIR$/readme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/promise async await.js" beforeDir="false" afterPath="$PROJECT_DIR$/promise async await.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/writeme.js" beforeDir="false" afterPath="$PROJECT_DIR$/writeme.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
       <workItem from="1698574637590" duration="921000" />
       <workItem from="1699153152538" duration="1415000" />
       <workItem from="1699154816043" duration="6692000" />
-      <workItem from="1699952860768" duration="956000" />
+      <workItem from="1699952860768" duration="2802000" />
     </task>
     <task id="LOCAL-00001" summary="설명추가">
       <created>1699154501794</created>

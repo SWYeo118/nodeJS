@@ -1,3 +1,5 @@
+// 콜백함수, 프로미스 함수는 전부 비동기이다.
+
 console.log(1);
 
 const promise = function () {
