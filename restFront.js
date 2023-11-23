@@ -53,7 +53,7 @@ document.getElementById('form').addEventListener('submit', async (e) => {
     return alert('이름을 입력하세요');
   }
   try {
-    await axios.post('/user', { name });
+    await axios.post('/user', { name });  // axios는 브라우저, Node.jsfmf dnlgks HTTP 비동기 통신 라이브러리
     getUser();
   } catch (err) {
     console.error(err);

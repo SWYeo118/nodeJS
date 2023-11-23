@@ -10,24 +10,28 @@ http.createServer(async (req, res) => {   // req = 요청, res = 응답
         const data = await fs.readFile('./restFront.html'); // 해당 파일을 읽은 다음
         res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' }); // Head 부분에 써주고
         return res.end(data);   // 데이터를 리턴해줌
-      } else if (req.url === '/about') {
+                                // Header -> 데이터들에 대한 정보(메타데이터라고도 한다)
+      } else if (req.url === '/about') {  // about 요청
         const data = await fs.readFile('./about.html');
         res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
         return res.end(data);
+
       } else if (req.url === '/users') {
         res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
         return res.end(JSON.stringify(users));
       }
-      // /도 /about도 /users도 아니면
+      // 요청하는 주소가 /도 /about도 /users도 아니면 (if문에 걸리지 않으면)
       try {
-        const data = await fs.readFile(`.${req.url}`);
+        const data = await fs.readFile(`.${req.url}`);  // 다른 애를 읽어서 보낼 수도 있다.
+                                                              // 실제로 server2.html 적으면 얘의 페이지가 뜸
+                                                              // 그리고 css랑 js도 다같이 보내줌(html에 script src 요청있음)
         return res.end(data);
       } catch (err) {
         // 주소에 해당하는 라우트를 못 찾았다는 404 Not Found error 발생
       }
     } else if (req.method === 'POST') {
       if (req.url === '/user') {
-        let body = '';
+        let body = '';  // body 하나를 선언해주고
         // 요청의 body를 stream 형식으로 받음
         req.on('data', (data) => {
           body += data;
