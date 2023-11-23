@@ -3,13 +3,13 @@ const fs = require('fs').promises;
 
 const users = {}; // 데이터 저장용
 
-http.createServer(async (req, res) => {
+http.createServer(async (req, res) => {   // req = 요청, res = 응답
   try {
     if (req.method === 'GET') {
-      if (req.url === '/') {
-        const data = await fs.readFile('./restFront.html');
-        res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-        return res.end(data);
+      if (req.url === '/') {    // 기본적으로 마지막에 '/'를 생략하고 넣어주니까
+        const data = await fs.readFile('./restFront.html'); // 해당 파일을 읽은 다음
+        res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' }); // Head 부분에 써주고
+        return res.end(data);   // 데이터를 리턴해줌
       } else if (req.url === '/about') {
         const data = await fs.readFile('./about.html');
         res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
@@ -72,6 +72,6 @@ http.createServer(async (req, res) => {
     res.end(err.message);
   }
 })
-  .listen(8082, () => {
+  .listen(8082, () => {           //8082 포트에서 대기
     console.log('8082번 포트에서 서버 대기 중입니다');
   });
