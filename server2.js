@@ -10,7 +10,7 @@ const server = http.createServer(async (require, response) => {      // http 객
         response.writeHead(200, {'Content-Type': 'text/plain; charset = utf-8'});
         response.end(error.message);
     }
-}).listen(8080, () => {                         // listen은 createServer의 method로 해당 port에서 서버가 대기하고 있겠다는 의미이다.
+}).listen(8080, () => {      // listen은 createServer의 method로 해당 port에서 서버가 대기하고 있겠다는 의미이다.
     console.log('8080번 서버 오픈');
 });
 
