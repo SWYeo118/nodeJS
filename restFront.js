@@ -1,6 +1,6 @@
 async function getUser() { // 로딩 시 사용자 가져오는 함수
   try {
-    const res = await axios.get('/users');
+    const res = await axios.get('/users'); // Axios란? ajax랑 유사하게 사용되는 HTTP비동기 통신 라이브러리
     const users = res.data;
     const list = document.getElementById('list');
     list.innerHTML = '';
@@ -53,7 +53,8 @@ document.getElementById('form').addEventListener('submit', async (e) => {
     return alert('이름을 입력하세요');
   }
   try {
-    await axios.post('/user', { name });  // axios는 브라우저, Node.jsfmf dnlgks HTTP 비동기 통신 라이브러리
+    await axios.post('/user', { name });  // axios는 브라우저, Node.js에서 사용되는 HTTP 비동기 통신 라이브러리, 여기서는 name 객체를 보낸다.
+    // axios.post의 결과물(response)의 이름 자체가 data이다.
     getUser();
   } catch (err) {
     console.error(err);

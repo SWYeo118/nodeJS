@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="631b78c8-02d3-487d-bca1-0d26e47611c6" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/restFront.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/restFront.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/writeme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/writeme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/promise async await.js" beforeDir="false" afterPath="$PROJECT_DIR$/promise async await.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server2.js" beforeDir="false" afterPath="$PROJECT_DIR$/server2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restFront.js" beforeDir="false" afterPath="$PROJECT_DIR$/restFront.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restServer.js" beforeDir="false" afterPath="$PROJECT_DIR$/restServer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +25,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6c54fdc8-63f1-48b3-8ea9-1237ced3f7a2" />
+        <option name="url" value="https://github.com/SWYeo118/nodeJS.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,7 +72,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.HelloWorld.js">
+  <component name="RunManager" selected="Node.js.promise async await.js">
     <configuration name="HelloWorld.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/HelloWorld.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
