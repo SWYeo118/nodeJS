@@ -1,3 +1,4 @@
+// 쿠키는 노출되고 수정(변조)이 가능하므로 키값정도만 보관하고 중요한 정보는 서버에 저장하는 session을 사용한다.
 const http = require('http');
 const fs = require('fs').promises;
 const url = require('url');
