@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="631b78c8-02d3-487d-bca1-0d26e47611c6" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restFront.js" beforeDir="false" afterPath="$PROJECT_DIR$/restFront.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restServer.js" beforeDir="false" afterPath="$PROJECT_DIR$/restServer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.15.0&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/sangwoo/Desktop/Development/nodejs&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -54,7 +58,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.HelloWorld.js">
     <configuration name="HelloWorld.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/HelloWorld.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -96,6 +100,9 @@
       <workItem from="1698574637590" duration="921000" />
       <workItem from="1699153152538" duration="1415000" />
       <workItem from="1699154816043" duration="6692000" />
+      <workItem from="1699952860768" duration="3756000" />
+      <workItem from="1700129264310" duration="3136000" />
+      <workItem from="1700741461526" duration="3133000" />
     </task>
     <task id="LOCAL-00001" summary="설명추가">
       <created>1699154501794</created>
