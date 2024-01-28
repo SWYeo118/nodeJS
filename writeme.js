@@ -10,3 +10,5 @@ fs.writeFile('./writeme.txt', '글자가 입력됩니다.')
     .catch((error) => {
         throw error;
     });
+
+// fs로 파일시스템 모듈을 불러온다.
