@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="631b78c8-02d3-487d-bca1-0d26e47611c6" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session.js" beforeDir="false" afterPath="$PROJECT_DIR$/session.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +23,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -115,6 +114,10 @@
       <workItem from="1699952860768" duration="3756000" />
       <workItem from="1700129264310" duration="3136000" />
       <workItem from="1700741461526" duration="3133000" />
+      <workItem from="1701419595220" duration="121000" />
+      <workItem from="1701419718994" duration="2897000" />
+      <workItem from="1701780427171" duration="26000" />
+      <workItem from="1702689246830" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="설명추가">
       <created>1699154501794</created>
