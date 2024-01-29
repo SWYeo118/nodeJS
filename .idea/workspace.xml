@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="631b78c8-02d3-487d-bca1-0d26e47611c6" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/writeme.js" beforeDir="false" afterPath="$PROJECT_DIR$/writeme.js" afterDir="false" />
+>>>>>>> c8fe015cf58d646161ceda655522632607d14d8d
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +73,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.promise async await.js">
-    <configuration name="HelloWorld.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/HelloWorld.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.writeme.js">
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -85,13 +86,16 @@
     <configuration name="this.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/this.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="writeme.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/writeme.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.writeme.js" />
         <item itemvalue="Node.js.promise async await.js" />
         <item itemvalue="Node.js.server1.js" />
         <item itemvalue="Node.js.this.js" />
         <item itemvalue="Node.js.index.js" />
-        <item itemvalue="Node.js.HelloWorld.js" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +121,12 @@
       <workItem from="1701419595220" duration="121000" />
       <workItem from="1701419718994" duration="2897000" />
       <workItem from="1701780427171" duration="26000" />
+<<<<<<< HEAD
       <workItem from="1702689246830" duration="5000" />
+=======
+      <workItem from="1704158468557" duration="10748000" />
+      <workItem from="1706444235469" duration="3513000" />
+>>>>>>> c8fe015cf58d646161ceda655522632607d14d8d
     </task>
     <task id="LOCAL-00001" summary="설명추가">
       <created>1699154501794</created>

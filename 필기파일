@@ -1,0 +1,24 @@
+모듈이라는 것 자체가 객체를 내보낸다고 생각하면 쉽다.
+
+1. CommonJS에서
+module.exports = {...} 로 모듈을 내보냄
+const utils = require('utils') 로 모듈을 가져옴
+
+예를 들어서
+calculator.js 라는 파일이 있고 내용이 다음과 같다고 하자
+module.exports.add = (a, b) => a + b;
+module.exports.sub = (a, b) => a - b;
+라고 내보냈을 때 add와 sub라는 이름을 지닌 'named export'이다.
+
+named export는 다음과 두 가지 방법으로 같이 가져와서 사용할 수 있다.
+const cal = require('./calculator')
+cal.add(3,4) = 7 또는
+
+const { add } = require('./calculator')
+add(3, 4) = 7 으로 사용이 가능하다.
+
+module.exports = {...} 라고만 모듈을 내보냈으면 default export가 된다.
+
+ES 시스템에서는
+export.default =()=> {...} 로 모듈을 내보냄
+import utils from 'utils'로 모듈을 가져옴
