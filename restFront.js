@@ -53,7 +53,8 @@ document.getElementById('form').addEventListener('submit', async (e) => {
     return alert('이름을 입력하세요');
   }
   try {
-    await axios.post('/user', { name });  // axios는 브라우저, Node.js에서 사용되는 HTTP 비동기 통신 라이브러리, 여기서는 name 객체를 보낸다.
+    await axios.post('/user', { name });
+    // axios는 브라우저 또는 Node.js에서 사용되는 HTTP 비동기 통신 라이브러리, 여기서는 name 객체를 보낸다.
     // axios.post의 결과물(response)의 이름 자체가 data이다.
     getUser();
   } catch (err) {

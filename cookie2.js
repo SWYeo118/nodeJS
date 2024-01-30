@@ -3,14 +3,30 @@ const fs = require('fs').promises;
 const url = require('url');
 const qs = require('querystring');
 
-const parseCookies = (cookie = '') =>
-  cookie
+
+// { mycookie : 'test' }와 같은 형태를 parsing한다.
+const parseCookies = (cookie = '') => cookie
     .split(';')
     .map(v => v.split('='))
     .reduce((acc, [k, v]) => {
       acc[k.trim()] = decodeURIComponent(v);
       return acc;
     }, {});
+/*
+쿠키 인자를 받아서 split하면 string 배열이 된다.
+map 하면 인자들을 받아서 새로운 배열로 변경시킨다. 여기서는 v라는 인자를 받아서 split하여 새로운 배열화 한다.
+reduce(  () => {}, {} ); 형태
+배열.reduce는 빈 요소를 제외하고 배열 내에 존재하는 각 요소에 대해 callback 함수를 한 번씩 실행한다.
+reduce(콜백함수, initialValue); 인데 이 중에서 initialValue는 Optional이고 콜백함수는 있어야 한다.
+reduce((accumulator, currentValue) => { }, initialValue)
+첫번째 받는 값은 함수, 두번째 받는 값은 initialValue
+initialValue가 있으면, index 0과 initialValue를 함수에 집어넣고, 그렇지 않으면 배열의 첫 번째 값과 두 번째 값을 함수에 집어넣는다.
+decodeURIComponent는 URI 요소를 deCode하고, encodeURIComponent는 encode한다.
+ */
+
+/*
+쿠키는 클라이언트에 저장되니까 서버에 가해지는 부하가 적은 것에 비해, 세션은 서버에 저장되기 때문에 서버 부하가 있다.
+ */
 
 http.createServer(async (req, res) => {
   const cookies = parseCookies(req.headers.cookie); // { mycookie: 'test' }
@@ -43,7 +59,7 @@ http.createServer(async (req, res) => {
       res.end(err.message);
     }
   }
-})
-  .listen(8084, () => {
+}
+).listen(8084, () => {
     console.log('8084번 포트에서 서버 대기 중입니다!');
   });
