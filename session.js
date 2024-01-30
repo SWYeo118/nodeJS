@@ -1,4 +1,5 @@
 // 쿠키는 노출되고 수정(변조)이 가능하므로 키값정도만 보관하고 중요한 정보는 서버에 저장하는 session을 사용한다.
+// 이건 예시고 실제 업무에서는 이렇게 사용하면 보안 위협이 있을 수 있으니 이거 말고 다른 express-session 사용하자
 const http = require('http');
 const fs = require('fs').promises;
 const url = require('url');
