@@ -8,3 +8,7 @@ fs.readFile('./readme.txt')
     .catch((error) => {
         throw error;
     });
+
+/*
+fs 모듈의 기본 이름이 데이터인가봐.
+ */
